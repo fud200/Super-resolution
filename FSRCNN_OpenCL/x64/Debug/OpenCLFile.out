@@ -1,0 +1,11 @@
+Ignoring -TARGETOS option - not supported for 64-bit version of this tool 
+
+Using build options:  -I "D:\c\fsrcnn\Âð¿Ï¼ºº»\FSRCNN_OpenCL\FSRCNN_OpenCL"
+Platform name: Intel(R) OpenCL HD Graphics
+Device name: Intel(R) UHD Graphics 630
+Device version: OpenCL 3.0 NEO 
+Device vendor: Intel(R) Corporation
+Device profile: FULL_PROFILE
+
+Failed to get kernel names for work group info
+Build succeeded!

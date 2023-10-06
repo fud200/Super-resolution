@@ -1,0 +1,171 @@
+﻿  Preprocessing: convolution.cl
+  Ignoring -TARGETOS option - not supported for 64-bit version of this tool 
+  
+  Using build options:  -I "D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL"
+  Platform name: Intel(R) OpenCL HD Graphics
+  Device name: Intel(R) UHD Graphics 630
+  Device version: OpenCL 3.0 NEO 
+  Device vendor: Intel(R) Corporation
+  Device profile: FULL_PROFILE
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\convolution.cl(8,1): warning CL: typedef requires a name
+  typedef struct _SR {
+  ^~~~~~~
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\convolution.cl(12,1): warning CL: typedef requires a name
+  typedef struct _SM {
+  ^~~~~~~
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\convolution.cl(17,1): warning CL: typedef requires a name
+  typedef struct _Output {
+  ^~~~~~~
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\convolution.cl(21,1): warning CL: typedef requires a name
+  typedef struct _Output_B {
+  ^~~~~~~
+  
+  convt info:
+  	Maximum work-group size: 256
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 32
+  	Minimum amount of private memory: 0
+  	Amount of spill memory used by the kernel: 0
+  
+  on_g_mat info:
+  	Maximum work-group size: 256
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 32
+  	Minimum amount of private memory: 0
+  	Amount of spill memory used by the kernel: 8192
+  
+  conv1 info:
+  	Maximum work-group size: 256
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 32
+  	Minimum amount of private memory: 0
+  	Amount of spill memory used by the kernel: 0
+  
+  Build succeeded!
+  
+cl : 명령줄 warning D9035: 'Gm' 옵션은 더 이상 사용되지 않으므로 이후 릴리스에서 제거될 예정입니다.
+  first_part.cpp
+  cl_version.h: CL_TARGET_OPENCL_VERSION is not defined. Defaulting to 220 (OpenCL 2.2)
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(16,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'strs' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(16,8): warning C4091: '': 변수를 선언하지 않으면 'strs' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(21,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_element' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(21,12): warning C4091: '': 변수를 선언하지 않으면 '_element' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(26,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_minmax' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(26,11): warning C4091: '': 변수를 선언하지 않으면 '_minmax' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(30,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_SR' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(30,7): warning C4091: '': 변수를 선언하지 않으면 '_SR' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(35,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_SM' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(35,7): warning C4091: '': 변수를 선언하지 않으면 '_SM' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(39,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_Output' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(39,11): warning C4091: '': 변수를 선언하지 않으면 '_Output' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(43,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_Output_B' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(43,13): warning C4091: '': 변수를 선언하지 않으면 '_Output_B' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(51,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_bcelement' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(51,14): warning C4091: '': 변수를 선언하지 않으면 '_bcelement' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(55,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_bcSR' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(55,9): warning C4091: '': 변수를 선언하지 않으면 '_bcSR' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(60,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_bcSM' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(60,9): warning C4091: '': 변수를 선언하지 않으면 '_bcSM' 왼쪽은 무시됩니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(134,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(142,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(328,30): warning C4838: 'int'에서 'size_t'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(328,47): warning C4838: 'int'에서 'size_t'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(330,22): warning C4101: 'maxVal' :참조되지 않은 지역 변수입니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(330,12): warning C4101: 'minVal' :참조되지 않은 지역 변수입니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(369,30): warning C4838: 'int'에서 'size_t'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(369,47): warning C4838: 'int'에서 'size_t'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(371,22): warning C4101: 'maxVal' :참조되지 않은 지역 변수입니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(371,12): warning C4101: 'minVal' :참조되지 않은 지역 변수입니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(407,30): warning C4838: 'int'에서 'size_t'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(407,47): warning C4838: 'int'에서 'size_t'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(409,22): warning C4101: 'maxVal' :참조되지 않은 지역 변수입니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(409,12): warning C4101: 'minVal' :참조되지 않은 지역 변수입니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(537,14): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(538,14): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(539,19): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(558,23): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(561,20): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(562,20): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(566,23): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(579,23): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(596,28): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(597,24): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(598,35): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(599,35): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(601,28): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(602,24): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(603,35): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(604,35): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(735,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(736,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(737,51): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(739,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(740,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(741,51): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(743,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(744,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(745,51): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(747,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(748,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(749,50): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(753,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(754,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(755,51): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(757,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(758,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(759,51): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(761,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(762,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(763,51): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(765,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(766,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(767,50): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(771,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(772,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(773,51): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(775,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(776,44): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(777,51): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(779,45): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(780,45): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(781,52): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(783,45): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(784,45): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(785,51): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(789,45): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(790,45): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(791,51): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(793,45): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(794,45): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(795,51): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(797,45): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(798,45): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(799,51): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(801,45): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(802,45): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(803,50): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(903,12): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(904,12): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(1221,68): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(1249,69): warning C4244: '=': 'float'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(1250,77): warning C4244: '=': 'float'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(1251,77): warning C4244: '=': 'float'에서 'BYTE'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(1285,10): warning C4101: 'kernel_num' :참조되지 않은 지역 변수입니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(1321,10): warning C4101: 'kernel_num' :참조되지 않은 지역 변수입니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\util.h(1386,12): warning C4477: 'printf' : 서식 문자열 '%.3f'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'clock_t'입니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\first_part.cpp(91,111): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\first_part.cpp(96,23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\first_part.cpp(97,23): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\first_part.cpp(622,12): warning C4129: 'N': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\first_part.cpp(764,12): warning C4129: 'N': 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\first_part.cpp(1119,92): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\first_part.cpp(1120,117): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\first_part.cpp(1121,92): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\first_part.cpp(1148,12): warning C4477: 'printf' : 서식 문자열 '%.3f'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'clock_t'입니다.
+D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\FSRCNN_OpenCL\first_part.cpp(209,13): warning C4101: 'curr' :참조되지 않은 지역 변수입니다.
+  FSRCNN_OpenCL.vcxproj -> D:\c\fsrcnn\찐완성본\FSRCNN_OpenCL\x64\Debug\FSRCNN_OpenCL.exe
+  convolution.cl
+          1개 파일이 복사되었습니다.

@@ -1,0 +1,46 @@
+Ignoring -TARGETOS option - not supported for 64-bit version of this tool 
+
+Using build options:  -I "D:\c\fsrcnn\Âð¿Ï¼ºº»\FSRCNN_OpenCL\FSRCNN_OpenCL"
+Platform name: Intel(R) OpenCL HD Graphics
+Device name: Intel(R) UHD Graphics 630
+Device version: OpenCL 3.0 NEO 
+Device vendor: Intel(R) Corporation
+Device profile: FULL_PROFILE
+D:\c\fsrcnn\Âð¿Ï¼ºº»\FSRCNN_OpenCL\FSRCNN_OpenCL\convolution.cl(8,1) :warning CL : typedef requires a name
+typedef struct _SR {
+^~~~~~~
+D:\c\fsrcnn\Âð¿Ï¼ºº»\FSRCNN_OpenCL\FSRCNN_OpenCL\convolution.cl(12,1) :warning CL : typedef requires a name
+typedef struct _SM {
+^~~~~~~
+D:\c\fsrcnn\Âð¿Ï¼ºº»\FSRCNN_OpenCL\FSRCNN_OpenCL\convolution.cl(17,1) :warning CL : typedef requires a name
+typedef struct _Output {
+^~~~~~~
+D:\c\fsrcnn\Âð¿Ï¼ºº»\FSRCNN_OpenCL\FSRCNN_OpenCL\convolution.cl(21,1) :warning CL : typedef requires a name
+typedef struct _Output_B {
+^~~~~~~
+
+convt info:
+	Maximum work-group size: 256
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 32
+	Minimum amount of private memory: 0
+	Amount of spill memory used by the kernel: 0
+
+on_g_mat info:
+	Maximum work-group size: 256
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 32
+	Minimum amount of private memory: 0
+	Amount of spill memory used by the kernel: 8192
+
+conv1 info:
+	Maximum work-group size: 256
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 32
+	Minimum amount of private memory: 0
+	Amount of spill memory used by the kernel: 0
+
+Build succeeded!
